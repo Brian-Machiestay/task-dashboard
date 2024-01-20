@@ -29,3 +29,10 @@
     }
 }
 
+@media (max-width: 480px) {
+    .container {
+        width: 80vw;
+        position: absolute;
+    }
+}
+
