@@ -1,0 +1,36 @@
+.container {
+    width: 90vw;
+    max-width: 300px;
+    background-color: white;
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 10px;
+    max-height: 90vh;
+    overflow-y: auto;
+
+    .columnHeader {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    p {
+        font-weight: 500;
+    }
+
+    p.taskNo {
+        color: rgb(204, 200, 200);
+    }
+
+    button {
+        width: 98%;
+        margin: 20px 0;
+        padding: 10px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        color: rgb(99, 98, 98);
+        background-color: rgb(243, 247, 248);;
+    }
+}
