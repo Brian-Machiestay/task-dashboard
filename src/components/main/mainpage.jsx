@@ -10,6 +10,9 @@ const Mainpage = () => {
             <Header />
             <div className={styles.columnContainer}>
                 <Column />
+                <Column />
+                <Column />
+                <Column />
             </div>
         </div>
     )

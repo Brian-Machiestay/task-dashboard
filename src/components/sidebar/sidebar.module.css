@@ -1,9 +1,21 @@
 .container {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
     width: 20%;
     background-color: rgb(20, 2, 37);
     height: 100%;
     color: white;
+
+    .close {
+        width: 100%;
+        display: none;
+
+        button {
+            margin-left: auto;
+            background-color: white;
+        }
+    }
 
     p {
         margin-left: 20px;
@@ -34,6 +46,10 @@
         width: 80vw;
         position: absolute;
         display: none;
+
+        .close {
+            display: flex;
+        }
     }
 }
 

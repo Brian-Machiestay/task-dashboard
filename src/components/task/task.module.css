@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 95%;
+    border: 2px solid rgb(231, 229, 229);
+    border-radius: 10px;
+    min-height: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+    .views {
+        margin-top: auto;
+        margin-left: auto;
+
+        img {
+           
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+    }
+
+    p.title {
+        font-size: 14pt;
+    }
+
+    p.date {
+        color: rgb(218, 215, 215);
+    }
+
+    p.description {
+        color: rgb(129, 128, 128);
+    }
+}

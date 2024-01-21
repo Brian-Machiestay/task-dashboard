@@ -70,3 +70,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.modal-header {
+  display: flex;
+  justify-content: center;
+
+  .close {
+    margin-left: auto;
+    width: 20px;
+    margin-right: 10px;
+    background-color: white
+  }
+}

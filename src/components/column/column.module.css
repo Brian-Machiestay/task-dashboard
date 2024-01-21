@@ -1,6 +1,7 @@
 .container {
     width: 90vw;
-    max-width: 300px;
+    max-width: 350px;
+    min-width: 300px;
     background-color: white;
     margin: 0 20px;
     padding: 10px;
