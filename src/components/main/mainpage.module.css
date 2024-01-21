@@ -1,5 +1,5 @@
 .container {
-    width: 77%;
+    width: 85%;
 
     .columnContainer {
         display: flex;
@@ -11,6 +11,9 @@
 
 @media (max-width: 820px) {
     .container {
-        width: 95%;
+        width: 100%;
+        margin-right: 10px;
+
+
     }
 }
